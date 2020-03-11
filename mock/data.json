@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "body": "barr",
+      "id": 2
+    },
+    {
+      "body": "14522",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "body": "144"
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "body": "qux",
+      "postId": 2
+    }
+  ]
+}

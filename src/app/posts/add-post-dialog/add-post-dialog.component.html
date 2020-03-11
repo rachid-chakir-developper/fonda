@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>Ajouter un poste : </h1>
+    <div mat-dialog-content>
+        <form [formGroup]="postFormGroup">
+            <div class="row">
+                <div class="col">
+                    <mat-form-field>
+                        <input matInput placeholder="corps de poste" formControlName="body" required>
+                    </mat-form-field>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Annuler</button>
+    <button mat-button [mat-dialog-close]="postFormGroup.value" cdkFocusInitial>Valider</button>
+</div>
